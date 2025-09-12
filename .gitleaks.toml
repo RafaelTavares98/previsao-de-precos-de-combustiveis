@@ -1,0 +1,10 @@
+title = "Local gitleaks config"
+
+[allowlist]
+description = "Ignorar venv, caches e diretório de dados"
+paths = [
+  '^\.venv/',
+  '^\.pytest_cache/',
+  '^\.ruff_cache/',
+  '^data/'
+]
